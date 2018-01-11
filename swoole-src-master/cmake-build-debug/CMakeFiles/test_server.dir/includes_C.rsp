@@ -1,0 +1,1 @@
+-I/usr/local/php/include/main -I/usr/local/php/include/Zend -I/usr/local/php/include -IE:/dianwang/Cprojects/swoole-src-master/. -IE:/dianwang/Cprojects/swoole-src-master/./include 

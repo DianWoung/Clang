@@ -1,0 +1,10 @@
+E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/CMakeFiles/shared.dir
+E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/CMakeFiles/unittest.dir
+E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/CMakeFiles/static.dir
+E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/CMakeFiles/install/strip.dir
+E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/CMakeFiles/test_server.dir
+E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/CMakeFiles/install/local.dir
+E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/CMakeFiles/install.dir
+E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/CMakeFiles/list_install_components.dir

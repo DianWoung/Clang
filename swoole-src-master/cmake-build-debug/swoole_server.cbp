@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="swoole_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared">
+				<Option output="E:/dianwang/Cprojects/swoole-src-master/lib/libswoole.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/local/php/include/main"/>
+					<Add directory="/usr/local/php/include/Zend"/>
+					<Add directory="/usr/local/php/include"/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/."/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/./include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 shared"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared/fast">
+				<Option output="E:/dianwang/Cprojects/swoole-src-master/lib/libswoole.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/local/php/include/main"/>
+					<Add directory="/usr/local/php/include/Zend"/>
+					<Add directory="/usr/local/php/include"/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/."/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/./include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 shared/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unittest">
+				<Option output="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/bin/unittest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/local/php/include/main"/>
+					<Add directory="/usr/local/php/include/Zend"/>
+					<Add directory="/usr/local/php/include"/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/."/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/./include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 unittest"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unittest/fast">
+				<Option output="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/bin/unittest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/local/php/include/main"/>
+					<Add directory="/usr/local/php/include/Zend"/>
+					<Add directory="/usr/local/php/include"/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/."/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/./include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 unittest/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="static">
+				<Option output="E:/dianwang/Cprojects/swoole-src-master/lib/libswoole.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/local/php/include/main"/>
+					<Add directory="/usr/local/php/include/Zend"/>
+					<Add directory="/usr/local/php/include"/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/."/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/./include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 static"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="static/fast">
+				<Option output="E:/dianwang/Cprojects/swoole-src-master/lib/libswoole.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/local/php/include/main"/>
+					<Add directory="/usr/local/php/include/Zend"/>
+					<Add directory="/usr/local/php/include"/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/."/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/./include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 static/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_server">
+				<Option output="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/bin/test_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/local/php/include/main"/>
+					<Add directory="/usr/local/php/include/Zend"/>
+					<Add directory="/usr/local/php/include"/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/."/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/./include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_server"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_server/fast">
+				<Option output="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/bin/test_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/local/php/include/main"/>
+					<Add directory="/usr/local/php/include/Zend"/>
+					<Add directory="/usr/local/php/include"/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/."/>
+					<Add directory="E:/dianwang/Cprojects/swoole-src-master/./include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_server/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/dianwang/Cprojects/swoole-src-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/examples/test_server.c">
+			<Option target="test_server"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/Channel.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/RingQueue.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/UnitTest.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/array.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/base.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/hashmap.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/heap.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/list.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/log.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/rbtree.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/socket.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/core/string.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/factory/Factory.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/factory/FactoryProcess.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/factory/FactoryThread.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/lock/AtomicLock.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/lock/Cond.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/lock/FileLock.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/lock/Mutex.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/lock/RWLock.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/lock/Semaphore.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/lock/SpinLock.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/memory/Buffer.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/memory/FixedPool.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/memory/Malloc.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/memory/MemoryGlobal.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/memory/RingBuffer.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/memory/ShareMemory.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/memory/Table.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/Client.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/Connection.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/DNS.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/Manager.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/Port.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/ProcessPool.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/ReactorProcess.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/ReactorThread.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/Server.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/TaskWorker.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/ThreadPool.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/TimeWheel.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/Timer.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/network/Worker.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/os/base.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/os/linux_aio.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/os/msg_queue.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/os/sendfile.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/os/signal.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/os/timer.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/pipe/PipeBase.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/pipe/PipeEventfd.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/pipe/PipeUnsock.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/Base.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/Base64.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/Http.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/Http2.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/MimeTypes.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/Mqtt.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/Redis.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/SSL.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/Sha1.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/Socks5.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/protocol/WebSocket.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/reactor/ReactorBase.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/reactor/ReactorEpoll.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/reactor/ReactorKqueue.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/reactor/ReactorPoll.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/src/reactor/ReactorSelect.c">
+			<Option target="shared"/>
+			<Option target="unittest"/>
+			<Option target="static"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/aio.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/client.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/ds.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/heap_test.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/http.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/main.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/mem.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/pool.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/ringbuffer.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/server.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/u1.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/u2.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/tests/websocket.c">
+			<Option target="unittest"/>
+		</Unit>
+		<Unit filename="E:/dianwang/Cprojects/swoole-src-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

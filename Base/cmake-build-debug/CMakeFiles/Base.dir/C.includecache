@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/dianwang/Cprojects/Base/main.c
+stdio.h
+-
+
+E:/dianwang/Cprojects/Base/numbers.c
+stdio.h
+E:/dianwang/Cprojects/Base/stdio.h
+
+E:/dianwang/Cprojects/Base/pointer.c
+stdio.h
+E:/dianwang/Cprojects/Base/stdio.h
+string.h
+E:/dianwang/Cprojects/Base/string.h
+
+E:/dianwang/Cprojects/Base/types.c
+stdio.h
+-
+
