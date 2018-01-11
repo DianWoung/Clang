@@ -45,27 +45,27 @@ int main(void)
     int *pnx;
     double *pdx;
     int *pvc[3];
-    int *ppnx;
+    int **ppnx;
 
     pnx = &nx;
     pdx = &dx;
 
-    printf("nx's pointer is %p\n",pnx);
-    printf("dx's pointer is %p\n",pdx);
+    printf("nx's address is %p\n",pnx);
+    printf("dx's address is %p\n",pdx);
     printf("--------------------\n");
     printf("--------------------\n");
     *pnx = 233;
     *pdx = 2123.21;
-    ppnx = &*pnx;
+    ppnx = &pnx;
     nx = 123123;
     dx = 123.123;
-    plus_pointer(&nx);
-    printf("nx's pointer alies is %d\n", *pnx);
-    printf("dx's pointer alies is %f\n", *pdx);
+    //plus_pointer(&nx);
+    printf("pnx's pointer alies is %p\n", &pnx);
+    printf("dx's pointer alies is %f\n", pdx);
     printf("--------------------\n");
     printf("--------------------\n");
     printf("nx's pointer alies is %d\n", nx);
     printf("dx's pointer alies is %f\n", dx);
-    printf("ppnx's pointer is %d\n", *ppnx);
+    printf("ppnx's pointer is %p\n", ppnx);
     return (0);
 }
