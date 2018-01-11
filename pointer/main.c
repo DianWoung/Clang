@@ -45,6 +45,7 @@ int main(void)
     int *pnx;
     double *pdx;
     int *pvc[3];
+    int *ppnx;
 
     pnx = &nx;
     pdx = &dx;
@@ -55,6 +56,7 @@ int main(void)
     printf("--------------------\n");
     *pnx = 233;
     *pdx = 2123.21;
+    ppnx = &*pnx;
     nx = 123123;
     dx = 123.123;
     plus_pointer(&nx);
@@ -64,5 +66,6 @@ int main(void)
     printf("--------------------\n");
     printf("nx's pointer alies is %d\n", nx);
     printf("dx's pointer alies is %f\n", dx);
+    printf("ppnx's pointer is %d\n", *ppnx);
     return (0);
 }
