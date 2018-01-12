@@ -33,6 +33,7 @@ char *str_copy(char *d, const char *s)
     return (t);
 }
 
+
 int main(void)
 {
     int i;
